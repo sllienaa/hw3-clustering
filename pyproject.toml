@@ -5,6 +5,11 @@ requires = [
 	]
 build-backend = "flit_core.buildapi"
 
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
 [project]
 name = "cluster"
 authors = [{name = "Yaen Chen", email = "yaen.chen@ucsf.edu"}]
